@@ -1,26 +1,13 @@
 import 'package:flutter/material.dart';
 import '../component/home_page_buttons.dart';
 import '../component/app_drawer.dart';
-import '../main.dart';
 
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({Key? key}) : super(key: key);
-
+class HomePage extends StatefulWidget {
   @override
-  MyHomePageState createState() => MyHomePageState();
+  _HomePageState createState() => _HomePageState();
 }
 
-class MyHomePageState extends State<MyHomePage> {
-  // bool lightState = false;
-
-  // MyAppState instance = MyAppState();
-
-  // void changeState() {
-  //   setState(() {
-  //     lightState = !lightState;
-  //   });
-  // }
-
+class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -28,7 +15,7 @@ class MyHomePageState extends State<MyHomePage> {
         appBar: AppBar(
           title: const Center(child: Text("One Tap Health")),
         ),
-        body: const HomePageButtons(),
+        body: HomePageButtons(),
         drawer: AppDrawer());
   }
 }

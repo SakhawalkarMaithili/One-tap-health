@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 
 // =============================== HOME PAGE ==================================
 class HomePageButtons extends StatelessWidget {
-  const HomePageButtons({
-    Key? key,
-  }) : super(key: key);
+  // const HomePageButtons({
+  //   Key? key,
+  // }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -28,7 +28,7 @@ class HomePageButtons extends StatelessWidget {
                           child: Column(
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: [
-                              const Icon(Icons.add),
+                              Icon(Icons.add),
                               Text('\nWant some help?')
                             ],
                           ),

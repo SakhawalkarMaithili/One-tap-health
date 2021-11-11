@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>17512299443-n8al9kmggmjad6slivne9ji2uvfadodp.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.17512299443-n8al9kmggmjad6slivne9ji2uvfadodp</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>17512299443-mea07fr2ls34gckjomh34d3co539a638.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCMb54hGGohxaX0lGKEcMjgnKER-TTr_Fg</string>
+	<key>GCM_SENDER_ID</key>
+	<string>17512299443</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.oneTapHealth</string>
+	<key>PROJECT_ID</key>
+	<string>one-tap-health</string>
+	<key>STORAGE_BUCKET</key>
+	<string>one-tap-health.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:17512299443:ios:3523703ec5477ee02629c6</string>
+</dict>
+</plist>

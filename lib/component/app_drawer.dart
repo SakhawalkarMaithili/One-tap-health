@@ -33,10 +33,6 @@ class _AppDrawerState extends State<AppDrawer> {
             leading: (!MyTheme.isDark)
                 ? const Icon(Icons.dark_mode)
                 : const Icon(Icons.light_mode),
-            // trailing: (
-            //   icon: Icon(Icons.color_lens),
-            //   onPressed: widget.togglecall,
-            // ),
             onTap: () {
               currentTheme.switchTheme();
               Navigator.pop(context);

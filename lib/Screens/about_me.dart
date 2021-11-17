@@ -14,6 +14,7 @@ class _AboutMeState extends State<AboutMe> {
       appBar: AppBar(
         title: const Text('About me'),
       ),
+      // body:
     );
   }
 }

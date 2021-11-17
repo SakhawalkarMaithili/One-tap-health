@@ -23,9 +23,9 @@ class _AppDrawerState extends State<AppDrawer> {
       child: ListView(
         padding: EdgeInsets.zero,
         children: [
-          const DrawerHeader(
-            child: Text('Drawer Header'),
-          ),
+          // const DrawerHeader(
+          //   child: Text('Drawer Header'),
+          // ),
           ListTile(
             title: (!MyTheme.isDark)
                 ? const Text('Night theme')

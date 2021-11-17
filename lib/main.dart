@@ -4,7 +4,7 @@ import 'Screens/sign_up_screen.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'Screens/my_home_page.dart';
 import 'Screens/chat_bot_screen.dart';
-import 'Screens/Reminder.dart';
+import 'Screens/reminder.dart';
 import 'Screens/about_me.dart';
 
 bool initScreen = false;

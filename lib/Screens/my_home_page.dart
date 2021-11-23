@@ -3,7 +3,7 @@ import '../component/home_page_buttons.dart';
 import '../component/app_drawer.dart';
 
 class MyHomePage extends StatefulWidget {
-  const MyHomePage({Key? key}) : super(key: key);
+  //const MyHomePage({Key? key}) : super(key: key);
 
   @override
   MyHomePageState createState() => MyHomePageState();
@@ -16,7 +16,7 @@ class MyHomePageState extends State<MyHomePage> {
         appBar: AppBar(
           title: const Text("One Tap Health"),
         ),
-        body: const HomePageButtons(),
+        body: HomePageButtons(),
         drawer: AppDrawer());
   }
 }

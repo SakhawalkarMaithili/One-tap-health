@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:one_tap_health/component/config.dart';
 import 'package:one_tap_health/component/theme.dart';
 import 'package:one_tap_health/main.dart';
-import '../Screens/my_home_page.dart';
 
 class AppDrawer extends StatefulWidget {
   // const AppDrawer({Key? key}) : super(key: key);
@@ -35,6 +34,22 @@ class _AppDrawerState extends State<AppDrawer> {
                 : const Icon(Icons.light_mode),
             onTap: () {
               currentTheme.switchTheme();
+              Navigator.pop(context);
+            },
+          ),
+          ListTile(
+            title: const Text('About me'),
+            leading: const Icon(Icons.person),
+            onTap: () {
+              Navigator.pushNamed(context, '/aboutme');
+              Navigator.pop(context);
+            },
+          ),
+          ListTile(
+            title: const Text('Sign Out'),
+            leading: const Icon(Icons.lock),
+            onTap: () {
+              Navigator.pushNamed(context, '/start');
               Navigator.pop(context);
             },
           ),

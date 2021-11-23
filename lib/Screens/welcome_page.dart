@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 // import 'package:google_sign_in/google_sign_in.dart';
 
 class Welcome extends StatefulWidget {
-  const Welcome({Key? key}) : super(key: key);
+  //const Welcome({Key? key}) : super(key: key);
 
   @override
   _WelcomeState createState() => _WelcomeState();

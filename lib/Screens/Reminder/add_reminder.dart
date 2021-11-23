@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class AddReminder extends StatefulWidget {
-  const AddReminder({Key? key}) : super(key: key);
+  //const AddReminder({Key? key}) : super(key: key);
 
   @override
   _AddReminderState createState() => _AddReminderState();

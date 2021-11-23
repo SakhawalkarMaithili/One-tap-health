@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
+import 'package:one_tap_health/Screens/Reminder/UI/success_screen.dart';
 import 'package:one_tap_health/Screens/welcome_page.dart';
 import 'package:one_tap_health/component/config.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-
 import 'Screens/welcome_page.dart';
-import 'Screens/login.dart';
-import 'Screens/sign_up.dart';
+// import 'Screens/login.dart';
+// import 'Screens/sign_up.dart';
 import 'Screens/my_home_page.dart';
 import 'Screens/chat_bot_screen.dart';
-import 'Screens/reminder_page.dart';
+import 'Screens/Reminder/UI/reminder_page.dart';
 import 'Screens/about_me.dart';
 import 'dart:async';
 
@@ -78,7 +78,8 @@ class MyAppState extends State<MyApp> {
         '/homepage': (BuildContext context) => MyHomePage(),
         '/bot': (BuildContext context) => ChatBotScreen(),
         '/reminders': (BuildContext context) => Reminder(),
-        '/aboutme': (BuildContext context) => AboutMe()
+        '/aboutme': (BuildContext context) => AboutMe(),
+        '/successscreen': (BuildContext context) => SuccessScreen()
       },
     );
   }

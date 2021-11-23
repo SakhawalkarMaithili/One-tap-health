@@ -34,8 +34,8 @@ class MyApp extends StatefulWidget {
 
 class MyAppState extends State<MyApp> {
   // Set default `_initialized` and `_error` state to false
-  bool _initialized = false;
-  bool _error = false;
+  // bool _initialized = false;
+  // bool _error = false;
 
   // Define an async function to initialize FlutterFire
   // void initializeFlutterFire() async {
@@ -74,7 +74,7 @@ class MyAppState extends State<MyApp> {
       routes: <String, WidgetBuilder>{
         '/start': (BuildContext context) => Welcome(),
         // '/login': (BuildContext context) => Login(),
-        // '/signup': (BuildContext context) => SignUp(),
+        '/signup': (BuildContext context) => SignUp(),
         '/homepage': (BuildContext context) => MyHomePage(),
         '/bot': (BuildContext context) => ChatBotScreen(),
         '/reminders': (BuildContext context) => Reminder(),

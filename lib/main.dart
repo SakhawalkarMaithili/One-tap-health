@@ -74,7 +74,7 @@ class MyAppState extends State<MyApp> {
       routes: <String, WidgetBuilder>{
         '/start': (BuildContext context) => Welcome(),
         // '/login': (BuildContext context) => Login(),
-        // '/signup': (BuildContext context) => SignUp(),
+        '/signup': (BuildContext context) => SignUp(),
         '/homepage': (BuildContext context) => MyHomePage(),
         '/bot': (BuildContext context) => ChatBotScreen(),
         '/reminders': (BuildContext context) => Reminder(),

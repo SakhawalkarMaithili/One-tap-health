@@ -86,12 +86,17 @@ class HomePageButtons extends StatelessWidget {
                       child: Padding(
                         padding: const EdgeInsets.all(12.0),
                         child: ElevatedButton(
-                          onPressed: () {},
+                          onPressed: () {
+                            Navigator.pushNamed(context, "/aboutme");
+                          },
                           child: Column(
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: const [
                               Icon(Icons.person),
                               Text('\nWhat did the doctor say?')
+                            children: [
+                              const Icon(Icons.person),
+                              Text('\nAbout me')
                             ],
                           ),
                           style: ElevatedButton.styleFrom(

@@ -16,7 +16,7 @@ class _WelcomeState extends State<Welcome> {
   }
 
   navigateToRegister() async {
-    // Navigator.pushNamed(context, "/signup");
+    Navigator.pushNamed(context, "/signup");
   }
 
   @override

@@ -82,7 +82,33 @@ class _AboutMeState extends State<AboutMe> {
                                     obscureText: true,
                                     onSaved: (input) {
                                       if (input != null) doctor = input;
-                                    }))
+                                    })),
+                            const SizedBox(height: 20),
+                            ElevatedButton(
+                              child: const Text('Save'),
+                              onPressed: () {
+                                Navigator.pop(context);
+                              },
+                              style: ButtonStyle(
+                                  backgroundColor: MaterialStateProperty.all(
+                                      Colors.lightBlue),
+                                  padding: MaterialStateProperty.all(
+                                      const EdgeInsets.fromLTRB(
+                                          70, 10, 70, 10)),
+                                  textStyle: MaterialStateProperty.all(
+                                    const TextStyle(
+                                        fontSize: 20,
+                                        fontWeight: FontWeight.bold,
+                                        color: Colors.white),
+                                  ),
+                                  shape: MaterialStateProperty.all<
+                                          RoundedRectangleBorder>(
+                                      RoundedRectangleBorder(
+                                          borderRadius:
+                                              BorderRadius.circular(10.0),
+                                          side: const BorderSide(
+                                              color: Colors.lightBlue)))),
+                            )
                           ])))
                 ]))));
   }

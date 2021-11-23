@@ -38,14 +38,14 @@ class _AppDrawerState extends State<AppDrawer> {
               Navigator.pop(context);
             },
           ),
-          ListTile(
-            title: const Text('About me'),
-            leading: const Icon(Icons.person),
-            onTap: () {
-              Navigator.pushNamed(context, '/aboutme');
-              Navigator.pop(context);
-            },
-          ),
+          // ListTile(
+          //   title: const Text('About me'),
+          //   leading: const Icon(Icons.person),
+          //   onTap: () {
+          //     Navigator.pushNamed(context, '/aboutme');
+          //     Navigator.pop(context);
+          //   },
+          // ),
         ],
       ),
     );

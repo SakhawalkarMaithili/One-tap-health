@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 
 // =============================== HOME PAGE ==================================
 class HomePageButtons extends StatelessWidget {
-  const HomePageButtons({
-    Key? key,
-  }) : super(key: key);
+  // const HomePageButtons({
+  //   Key? key,
+  // }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -27,8 +27,8 @@ class HomePageButtons extends StatelessWidget {
                           },
                           child: Column(
                             mainAxisAlignment: MainAxisAlignment.center,
-                            children: [
-                              const Icon(Icons.add),
+                            children: const [
+                              Icon(Icons.add),
                               Text('\nWant some help?')
                             ],
                           ),
@@ -47,8 +47,8 @@ class HomePageButtons extends StatelessWidget {
                           },
                           child: Column(
                             mainAxisAlignment: MainAxisAlignment.center,
-                            children: [
-                              const Icon(Icons.alarm),
+                            children: const [
+                              Icon(Icons.alarm),
                               Text('\nReminder')
                             ],
                           ),
@@ -71,8 +71,8 @@ class HomePageButtons extends StatelessWidget {
                           onPressed: () {},
                           child: Column(
                             mainAxisAlignment: MainAxisAlignment.center,
-                            children: [
-                              const Icon(Icons.calendar_today),
+                            children: const [
+                              Icon(Icons.calendar_today),
                               Text('\nHealth tip of the day')
                             ],
                           ),
@@ -89,8 +89,8 @@ class HomePageButtons extends StatelessWidget {
                           onPressed: () {},
                           child: Column(
                             mainAxisAlignment: MainAxisAlignment.center,
-                            children: [
-                              const Icon(Icons.person),
+                            children: const [
+                              Icon(Icons.person),
                               Text('\nWhat did the doctor say?')
                             ],
                           ),
